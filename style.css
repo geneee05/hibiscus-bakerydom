@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EBDD;
+    color: #4B2E22;
+}
+
+header {
+    background-color: #FFC3D0;
+    padding: 20px;
+    text-align: center;
+}
+
+.tagline {
+    font-style: italic;
+    color: #A96F4D;
+}
+
+nav {
+    background-color: #F4B6A8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #4B2E22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu-items li {
+    background-color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #A96F4D;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #A9B79C;
+    color: #4B2E22;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #F4B6A8;
+    padding: 15px;
+    margin-top: 20px;
+}
