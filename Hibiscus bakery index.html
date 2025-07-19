@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hibiscus Bakery</title>
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=The+Youngest+Serif&display=swap" rel="stylesheet" />
+  <style>
+    /* Paleta de colores */
+    :root {
+      --rosa-suave: #ffc3d0;
+      --coral-suave: #f4b6a8;
+      --verde-olivo: #a9b79c;
+      --crema: #f5ebdd;
+      --caramelo: #a96f4d;
+      --marron-oscuro: #4b2e22;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--crema);
+      color: var(--marron-oscuro);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--rosa-suave);
+      padding: 2rem 1rem;
+      text-align: center;
+      font-family: 'The Youngest Serif', serif;
+      color: var(--marron-oscuro);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 3px;
+    }
+    header p {
+      margin-top: 0.3rem;
+      font-size: 1.3rem;
+      font-style: italic;
+      font-family: 'Sulat Rizal', serif;
+      color: var(--caramelo);
+    }
+    nav {
+      background-color: var(--coral-suave);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      font-weight: 600;
+    }
+    nav a {
+      color: var(--marron-oscuro);
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: var(--caramelo);
+    }
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      font-family: 'The Youngest Serif', serif;
+      font-size: 2rem;
+      color: var(--caramelo);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .menu-item {
+      background: var(--rosa-suave);
+      border-radius: 12px;
+      margin: 1rem 0;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: var(--marron-oscuro);
+    }
+    .menu-item span {
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    #ordenar {
+      background-color: var(--verde-olivo);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-radius: 12px;
+      max-width: 900px;
+      margin: 3rem auto;
+      font-family: 'Poppins', sans-serif;
+    }
+    #ordenar p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn-whatsapp {
+      display: inline-block;
+      background-color: var(--caramelo);
+      color: white;
+      padding: 0.8rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+    .btn-whatsapp:hover {
+      background-color: var(--marron-oscuro);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--coral-suave);
+      color: var(--marron-oscuro);
+      font-family: 'Sulat Rizal', serif;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .menu-item {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hibiscus Bakery</h1>
+    <p>Repostería creativa con alma caribeña</p>
+  </header>
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#mision">Misión</a>
+    <a href="#vision">Visión</a>
+    <a href="#valores">Valores</a>
+    <a href="#menu">Menú</a>
+    <a href="#ordenar">Ordena Aquí</a>
+  </nav>
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>En Hibiscus Bakery creemos que cada postre puede contar una historia. Somos una pequeña pastelería artesanal inspirada en la dulzura del Caribe, el aroma a hogar y la valentía de soñar en grande. Nos especializamos en donuts brioche suaves y glaseados únicos, hechos con amor, ingredientes frescos y ese toque rebelde que nos hace diferentes.</p>
+    <p>Nos ubicamos en Bonao, Palero Abajo, y estamos listos para endulzar tu día.</p>
+  </section>
+
+  <section id="mision">
+    <h2>Misión</h2>
+    <p>Ofrecer postres artesanales de alta calidad que transmitan la esencia caribeña, brindando momentos de felicidad y sabor único a cada cliente.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Visión</h2>
+    <p>Ser reconocidos como la pastelería líder en la región, innovando con recetas auténticas y creando experiencias inolvidables para nuestros clientes.</p>
+  </section>
+
+  <section id="valores">
+    <h2>Valores</h2>
+    <ul>
+      <li><strong>Calidad:</strong> Uso de ingredientes frescos y naturales para cada creación.</li>
+      <li><strong>Pasión:</strong> Amor y dedicación en cada proceso artesanal.</li>
+      <li><strong>Innovación:</strong> Creación constante de sabores únicos y originales.</li>
+      <li><strong>Compromiso:</strong> Atención personalizada y servicio amable.</li>
+      <li><strong>Respeto:</strong> Valoramos nuestras raíces y la confianza de nuestros clientes.</li>
+    </ul>
+  </section>
+
+  <section id="menu">
+    <h2>Menú</h2>
+    <div class="menu-item">
+      <span>Donut Brioche Dulce de Leche</span>
+      <span>RD$ 85</span>
+    </div>
+    <div class="menu-item">
+      <span>Donut Brioche Crema de Avellanas</span>
+      <span>RD$ 95</span>
+    </div>
+  </section>
+  <section id="ordenar">
+    <h2>Ordena Aquí</h2>
+    <p>¿Antojo de algo dulce y especial? Haz tu pedido fácil y rápido. Donuts brioche, postres artesanales y mucha dulzura hecha con amor.</p>
+    <a href="https://wa.me/18295238888" target="_blank" rel="noopener" class="btn-whatsapp">Escríbenos por WhatsApp</a>
+  </section>
+  <footer>
+    <p>&copy; 2025 Hibiscus Bakery - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
